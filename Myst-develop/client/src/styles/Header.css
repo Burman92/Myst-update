@@ -1,0 +1,131 @@
+/* the entire header, everything within is a child of it*/
+#global_header{
+    background: #171a21;
+    background-position: center top;
+    min-width: 940px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    height: 125px;
+}
+
+/* smaller container for all buttons in the header, the header is the rectangle spanning the length of the page*/
+.contents{
+    background: #171a2100;
+    position: relative;
+    width: 940px;
+    height: 4px;
+    margin: 0px auto;
+    z-index: 402;
+}
+
+#logo{
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 100px;
+    height: 44px;
+    position: absolute;
+    top: -px ;
+    left: 0px;
+    cursor: pointer;
+    
+}
+
+
+/*buttons next to the steam logo*/
+.menu_item{
+    display: block;
+position: relative;
+padding-top: 65px;
+padding-left: 25px;
+padding-right: 7px;
+padding-bottom: 7px;
+line-height: 16px;
+float: left;
+font-size: 14px;
+color: #b8b6b4;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+/* container for the drop downs*/
+.supernav_content{
+max-width: 132px;
+background: #000 url(https://store.akamai.steamstatic.com/public/shared/images/dd_web.jpg) top left no-repeat;
+padding: 5px 15px 10px 15px;
+box-shadow: 3px 3px 5px -3px #000;
+text-align: left;
+z-index: 500;
+}
+
+
+/*store, community, about support*/
+.supernav_container{
+    position: absolute;
+    left: 200px;
+}
+
+/* this moves the entire div containing these buttons */
+#global_action_menu_id{
+    position: absolute ;
+    right: 0px;
+    top: 10px;
+}
+
+/*the global action menu class*/
+/* applies attributes to install steam, language, login*/
+.global_action_menu{
+    line-height: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+/* install steam button is a child of the global action menu*/
+#install-steam{
+    color: #E5E4DC;
+    font: 11px "Motiva Sans", sans-serif;
+    background-color: #5c7e10;
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;    
+    position: relative;
+    height: 21px;
+    line-height: 24px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+option{
+    background: #171a21;
+    color: #b8b6b4;
+}
+
+select{
+    background: #171a21;
+    color: #b8b6b4; 
+    border:#171a21;
+}
+#login{
+color: #b8b6b4;
+cursor: pointer;
+}
+
+#languages{
+color: #b8b6b4;
+cursor: pointer;
+}
+
+
+
+
+
+

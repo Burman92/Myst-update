@@ -1,0 +1,35 @@
+.popUpContainerNoteWorthy{
+    position: fixed;
+    min-width: px;
+    background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+    padding: 8px 5px 8px 5px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    color: #c6d4df;
+    font-size: 12px;
+    top: 22%;
+    left: 27%;
+}
+.item{
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    border-bottom: 2px solid #ffffff00;
+    padding: 3px 1px 2px 1px;
+    margin: 0px 10px 3px 13px;
+    transition-property: border;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    color: #D8D8D8;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-transform: none;
+    font-family: Motiva Sans, Arial, Helvectica, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

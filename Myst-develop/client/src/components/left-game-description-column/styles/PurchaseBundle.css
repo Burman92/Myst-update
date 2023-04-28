@@ -1,0 +1,342 @@
+.game_bundle_wrapper {
+  display: flex;
+  justify-content: center;
+  height: 114px;
+  margin-top: 30px;
+  width: 600px;
+}
+
+.game_bundle {
+  background-color: #fff;
+  padding: 5px 0px 40px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 114px;
+  position: relative;
+  background-image: linear-gradient(to right, #253746 0%, #6b7c93 100%);
+}
+
+.game_bundle_area_purchase_platform {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.bundle_deal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: lightgray;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.bundle1_platform_img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+.win {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_Steam-512.png");
+}
+
+.mac {
+  background-image: url("https://www.macworld.co.uk/cmsdata/features/3635104/Steam_logo.jpg");
+}
+
+.bundle1_h1 {
+  font-size: 22px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.bundle_label {
+  margin-left: 10px;
+  font-size: 12px;
+  color: lightgrey;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bundle_label_tooltip {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+  color: #d3d3d3;
+  text-decoration: none;
+  cursor: default;
+}
+
+.bundle_contents_preview {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  white-space: nowrap;
+  border: 5px solid darkslategrey;
+  width: 595px;
+  margin-right: 5px;
+}
+
+.bundle_contents_preview_position {
+  width: 600px;
+}
+
+.bundle_contents_preview a {
+  height: 100%;
+  width: 80%;
+}
+
+.bundle_base_discount {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 5px;
+    padding-left: 10px;
+  }
+  
+  .your_price_label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .discount_price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+.first_game_inside_bundle1 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/subs/7/capsule_sm_120.jpg?t=1447444801"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.second_game_inside_bundle1 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/300/capsule_sm_120.jpg?t=1675457675"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.third_game_inside_bundle1 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/20/capsule_sm_120.jpg?t=1579634708"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.fourth_game_inside_bundle1 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/30/capsule_sm_120.jpg?t=1512413490"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.fifth_game_inside_bundle1 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/40/capsule_sm_120.jpg?t=1568752159"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.sixth_game_inside_bundle1 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/50/capsule_sm_120.jpg?t=1579628243"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.first_game_inside_bundle2 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/20/capsule_sm_120.jpg?t=1579634708"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.second_game_inside_bundle2 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/50/capsule_sm_120.jpg?t=1579628243"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.third_game_inside_bundle2 {
+  /* background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/280/header.jpg?t=1567598769"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.fourth_game_inside_bundle2 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/130/capsule_sm_120.jpg?t=1579629868"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.fifth_game_inside_bundle2 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/220/capsule_sm_120.jpg?t=1666823596"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.sixth_game_inside_bundle2 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/subs/38/capsule_sm_120.jpg?t=1458838967"); */
+  background-size: cover;
+  width: 100px;
+  height: 45px;
+}
+
+.first_game_inside_bundle3 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/20/capsule_sm_120.jpg?t=1579634708"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.second_game_inside_bundle3 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/50/capsule_sm_120.jpg?t=1579628243"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.third_game_inside_bundle3 {
+  /* background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/280/header.jpg?t=1567598769"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.fourth_game_inside_bundle3 {
+  /* background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/130/capsule_sm_120.jpg?t=1579629868"); */
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.fifth_game_inside_bundle3 {
+  background-image: url("");
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.sixth_game_inside_bundle3 {
+  background-image: url("");
+  background-size: cover;
+  width: 99px;
+  height: 45px;
+}
+
+.game_purchase_action {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -25px;
+  width: 600px;
+}
+
+.bundle_purchase_action_bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 2px;
+  background-color: #000000;
+  border-radius: 2px;
+  white-space: nowrap;
+  font-size: 0;
+  margin-right: 10px;
+}
+
+.game_purchase_action .bundle_purchase_action_bg:first-child {
+  right: 210px;
+  bottom: -30px;
+  z-index: 1;
+}
+
+.game_purchase_action .bundle_purchase_action_bg:last-child {
+  right: 20px;
+  bottom: -30px;
+}
+
+.your_price_label {
+    font-size: 12px;
+    color: #ffffff;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.bundle_base_discount {
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+
+.discount_final_price {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+
+.btn_addtocart {
+  display: flex;
+}
+
+.btn_green_steamui,
+.btn_blue_steamui {
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn_green_steamui {
+  background-color: darkgreen;
+}
+
+.btn_green_steamui:hover {
+  background-color: #6bc566;
+}
+
+.btn_blue_steamui {
+  background-color: #007acc;
+  margin-right: 5px;
+}
+
+.btn_blue_steamui:hover {
+  background-color: #3399ff;
+}
+
+.tooltip {
+    position: fixed;
+    z-index: 1000;
+    width: 175px;
+    height: 75px;
+    padding: 4px;
+    border: 1px solid black;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    color: black;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+}

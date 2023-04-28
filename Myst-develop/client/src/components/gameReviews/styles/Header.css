@@ -1,0 +1,108 @@
+.headerH2 {
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    background-image: url(/public/images/v6/maincol_gradient_rule.webp);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.grAtGlace {
+    background-color: #2a475e;
+    box-shadow: 0 0 5px #000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+    display: flex;
+}
+.overAllReviews{
+    width: 605px;
+    display: inline-block;
+    border: 1px solid #000000;
+}
+.sumBar{
+    margin-bottom: 0px;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    background: none;
+        min-height: 38px;
+        border-right: none;
+
+}
+.sumSection{
+    display: inline-block;
+        margin-right: 15px;
+        color: #8ba6b6;
+        min-width: 320px;
+    
+}
+.recentReviews {
+    width: 335px;
+    display: inline-block;
+    border: 1px solid #000000;
+    background-color: #40647E;
+
+}
+
+
+.rrsumBar {
+    margin-bottom: 0px;
+        border-bottom: 1px solid #000000;
+        padding: 10px;
+        background: none;
+        min-height: 38px;
+}
+
+
+.rrsumSection {
+    display: inline-block;
+        margin-right: 15px;
+        color: #8ba6b6;
+        min-width: 320px;
+}
+
+.overallTitle {
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #e5e5e5;
+}
+
+.overallSpan {
+    color: #66C0F4;
+    cursor: help;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 9px;
+    text-shadow: 1px 1px rgba( 0, 0, 0, 0.2 );
+}
+
+.overallAmount {
+    color: #8ba6b6;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oatooltipimg {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.oatooltipimg:hover+.overallToolTipText {
+-webkit-user-drag: none;
+}
+

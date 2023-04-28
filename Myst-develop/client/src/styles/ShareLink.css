@@ -1,0 +1,56 @@
+.linkRow{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    display: block;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+.linkbtn{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #67c1f5;
+    background: rgba(103, 193, 245, 0.2);
+    margin-right: 3px;
+}
+.linkText{
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 2px;
+    display: block;
+    background: transparent;
+    margin: 0;
+    cursor: pointer;
+}
+.replinkText{
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 2px;
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    color: #67c1f5
+}
+.linkIcon{
+    
+    margin: 7px 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://store.cloudflare.steamstatic.com/public/shared/images/buttons/icons_16.png?v=5);
+    padding: 0;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 30px;
+    background-position: -256px 0px;
+}

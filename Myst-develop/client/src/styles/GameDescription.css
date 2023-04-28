@@ -1,0 +1,128 @@
+div{
+    display: block;
+}
+.gameDescription{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 324px;
+    max-height: 432px;
+}
+
+.picDiv{
+    max-height: 154px;
+}
+
+.pic{
+    height: 151px;
+    width: 324px;
+}
+
+.description{
+    height: 108px;
+    padding-right: 16px;
+    font-size: 13px;
+    color: #C6D4DF
+}
+
+.reviewSum{
+    height: 16px;
+    display: flex;
+}
+.reviewText{
+    width: 104px;
+    height: 16px;
+    text-align: left;
+    font-size: 10px;
+    padding-right: 10px;
+    color: #556772;
+}
+.reviewSpan{
+    width: 130.72px;
+    height: 14px;
+    color: #66C0F4;
+    font-size: 12px;
+}
+.releaseSum {
+    max-height: 38px;
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+    padding-bottom: 11px
+}
+
+.releaseText {
+    width: 104px;
+    height: 16px;
+    text-align: left;
+    font-size: 10px;
+    padding-right: 10px;
+    color: #556772;
+}
+
+.releaseDate {
+    width: 64.72px;
+    height: 16px;
+    font-size: 12px;
+    color: #8F98A0;
+    
+}
+
+.devRow{
+    height: 16px;
+    display: flex;
+}
+
+.devRowText{
+    width: 104px;
+    height: 16px;
+    text-align: left;
+    font-size: 10px;
+    padding-right: 10px;
+    color: #556772;
+}
+
+.devRowLink{
+    width: 29.14px;
+    height: 14px;
+    color: #67C1F5;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.tagIntro{
+    height: 19px;
+    font-size: 12px;
+    color: #556772;
+}
+
+.tag{
+    text-decoration: none;
+    font-size: 11px;
+    color: #67C1F5;
+    margin: 0px 2px 3px 0px;
+    padding: 0px 7px;
+    background-color: #67C1F533;
+    display: inline-block;
+    box-shadow: none;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tagBtn{
+    text-decoration: none;
+    font-size: 11px;
+    color: #67C1F5;
+    margin: 0px 2px 3px 0px;
+    padding: 0px 7px;
+    background-color: #67C1F533;
+    display: inline-block;
+    box-shadow: none;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -1,0 +1,59 @@
+.curator-box {
+    margin: 30px 0px 30px 0px;
+}
+
+
+.game_description_column-view-all {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 11px;
+    float: right;
+    background-color: rgba( 103, 193, 245, 0.2 );
+    border-radius: 1px;
+    color: #67c1f5;
+    font-size: 11px;
+    padding: 2px 4px;
+    margin-right: 3px;
+}
+
+.game_description_column-view-all:hover {
+    background-color: #0b7dbf;
+    color: white;
+}
+
+.wcs-heading {
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    padding-top: 2px;
+    
+}
+
+.wcsBar {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    height: 1px;
+    background: linear-gradient(to right, #3A6E8B, #ffffff00);
+}
+
+.wcsHere {
+    color:#ffffff;
+}
+
+.wcsHere:hover {
+    color: #0b7dbf;
+}
+
+.curator-review {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #acb2b8;
+    padding: 30px 0px 30px 15px;
+    margin: 0px 0px 0px 0px;
+    background: rgba( 0, 0, 0, 0.2 );    
+    height: fit-content;
+}

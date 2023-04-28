@@ -1,0 +1,92 @@
+.game_area_dlc_section {
+  padding: 0px;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.gradientbg {
+  position: relative;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: light;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+.note {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Arial;
+  color: white;
+}
+
+.browse_tag {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 0;
+  padding: 5px 8px;
+  position: absolute;
+  right: 1px;
+  top: 30%;
+  transform: translateY(-50%);
+  white-space: nowrap; /* Add this property */
+}
+
+.browse_tag:hover {
+  text-decoration: underline;
+}
+
+.gradient_line {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, #3A6E8B, #ffffff00);
+  margin-bottom: 10px;
+}
+
+.game_area_dlc_list {
+  position: relative;
+}
+
+.game_area_dlc_list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, rgba(58, 110, 139, 0.2) 0%, rgba(58, 110, 139, 0) 100%);
+}
+
+.game_area_dlc_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #6b7c93 0%, #253746 100%);
+  padding: 5px 0px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 0;
+}
+
+.game_area_dlc_name {
+  margin: 0;
+  font-weight: light;
+  font-size: 10px;
+  padding-left: 5px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.game_area_dlc_price {
+  margin: 0;
+  font-weight: light;
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+  color: white;
+}

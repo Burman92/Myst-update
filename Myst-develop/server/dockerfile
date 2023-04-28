@@ -1,0 +1,17 @@
+FROM node:bullseye
+
+WORKDIR /app
+
+COPY . /app
+
+RUN npm install
+RUN apt-get update && apt-get install -y netcat
+RUN npm install -g npm@9.6.4
+
+
+EXPOSE 3000
+
+CMD ["npm", "run"]
+
+COPY ./db/schema.sql /docker-entrypoint-initdb.d/
+COPY ./db/seeds.sql /docker-entrypoint-initdb.d/

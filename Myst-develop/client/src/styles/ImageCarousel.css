@@ -1,0 +1,141 @@
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 450px;
+  height: 80%;
+}
+
+.carousel img {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  width: 90%;
+  height: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 5px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.arrow-btn {
+  position: relative;
+  background-color: #162330;
+  border: none;
+  padding: 1px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.arrow-btn:hover {
+  background-color: #326B9C;
+}
+
+.arrow-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-width: 10px 10px 10px 0;
+  border-style: solid;
+  border-color: transparent #203749 transparent transparent;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  display: none !important;
+}
+
+.arrow-btn:last-child::before {
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #203749;
+}
+
+.arrow-btn:hover::before {
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.arrow-btn:last-child:hover::before {
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.thumbnail-bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: .15rem;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 25px;
+  margin: 0 2px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail.active {
+  border-color: white;
+}
+
+.range-slider {
+  position: relative;
+  width: 80%;
+}
+
+.horizontal-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 95%;
+  margin-top: 2px;
+  height: 25px;
+  background: #0B1017;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.horizontal-slider::-webkit-slider-thumb:hover {
+  background-color: #326B9C;
+}
+
+.horizontal-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 23px;
+  background: #152330;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.horizontal-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #333;
+  cursor: pointer;
+  margin-top: -3px;
+}

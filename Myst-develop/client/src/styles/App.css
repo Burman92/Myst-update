@@ -1,0 +1,94 @@
+.picture{
+    background-image: url("/src/assets/background.webp");
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* min-width: 972px; */
+    display: block;
+
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background: #1b2838;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-and-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 3600px; /* You can adjust this value according to your desired layout width */
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+  padding-bottom: 0;
+}
+
+.ImageCarousel {
+  flex: 1;
+  max-width: 450px; /* You can adjust this value according to your desired carousel width */
+  margin-right: 20px;
+  padding-bottom: 0;
+}
+
+.game-description-wrapper {
+  flex: 1;
+  max-width: 600px;
+  padding-left: 114px; /* You can adjust this value according to your desired game description width */
+}
+
+.page_content {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+.signInPleaseContainer{
+  width: 940px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0px auto;
+  margin-bottom: 16px;
+  height: 40px;
+}
+.signInSubContainer{
+  display: flex;
+  text-align: center;
+
+
+}
+.signInPTag{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c6d4df;
+  font-size: 12px;
+  padding-left: 15px;
+}
+.signInATag{
+  text-decoration: none;
+  color: #ffffff;
+}
+.backgroundGlow{
+  background: url(https://store.akamai.steamstatic.com/public/images/v6/app/game_page_background_shadow.png?v=2);
+  background-position: -400px 285px;
+  padding-bottom: 1px;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+}

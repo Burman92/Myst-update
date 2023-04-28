@@ -1,0 +1,98 @@
+.game_area_purchase_game_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin-top: 30px;
+}
+
+.game_area_purchase_game {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: 55px;
+  position: relative;
+  background-image: linear-gradient(to right, #253746 0%, #6b7c93 100%);
+}
+
+.game_area_purchase_platform {
+    display: flex;
+    position: absolute;
+    right: 10px; /* Move the images to the right */
+    top: 13px; /* Move the images to the top */
+  }
+
+.platform_img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+.win {
+  background-image: url("https://store.cloudflare.steamstatic.com/public/images/v6/icon_platform_win.png?v=3");
+}
+
+.mac {
+  background-image: url("https://store.cloudflare.steamstatic.com/public/images/v6/icon_platform_mac.png");
+}
+
+.linux {
+  background-image: url("https://store.cloudflare.steamstatic.com/public/images/v6/icon_platform_linux.png");
+}
+
+.buy_half_life_h1 {
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* Make the text white */
+    font-family: Arial, sans-serif; /* Use Arial font */
+  }
+
+.game_purchase_action_bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 15px; /* Update right positioning (80px to the left) */
+  bottom: -15px; /* Update bottom positioning (10px down) */
+  height: 32px;
+  background-color: #000000;
+  padding: 2px 2px 2px 0px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  white-space: nowrap;
+  font-size: 0;
+}
+.btn_addtocart {
+    display: flex;
+  }
+
+  .game_purchase_price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding-left: 10px; /* Add padding-left */
+  }
+  
+  .btn_green_steamui {
+    background-color: darkgreen;
+    color: #fff;
+    padding: 8px 10px; /* Decrease padding to shrink the button */
+    border-radius: 2px; /* Round the edges */
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  
+  .btn_green_steamui:hover {
+    background-color: #6bc566; /* Update the green hover color to be brighter */
+  }

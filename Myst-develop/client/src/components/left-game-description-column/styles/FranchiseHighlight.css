@@ -1,0 +1,68 @@
+.franchise_notice {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.franchise_name {
+  position: relative;
+  z-index: 2;
+  padding-left: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.background_image {
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.background_image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 20%),
+              linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 20%),
+              linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 20%),
+              linear-gradient(270deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 20%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.zoom-image:hover .background_image::after {
+  opacity: 1;
+}
+
+.zoom-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.zoom-image .background_image {
+  transition: transform 0.3s ease;
+}
+
+.zoom-image:hover .background_image {
+  transform: scale(1.1);
+}
